@@ -6,3 +6,13 @@ url: https://d3etme4n.github.io/
 
 aux_links: # remove if you don't want this link to appear on your pages
   Template Repository: https://github.com/D3etMe4n/D3etMe4n.github.io
+
+math: katex
+
+markdown: kramdown
+
+kramdown:
+  math-engine: katex
+
+plugins:
+  - jekyll-katex
